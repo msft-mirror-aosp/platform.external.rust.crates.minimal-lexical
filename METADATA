@@ -1,0 +1,17 @@
+name: "minimal-lexical"
+description:
+    "Fast float parsing conversion routines."
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://crates.io/crates/minimal-lexical"
+  }
+  url {
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/minimal-lexical/minimal-lexical-0.2.0.crate"
+  }
+  version: "0.2.0"
+  last_upgrade_date { year: 2021 month: 9 day: 23 }
+  license_type: NOTICE
+}
