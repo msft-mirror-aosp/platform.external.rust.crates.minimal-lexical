@@ -11,7 +11,54 @@
       "path": "external/rust/crates/rusticata-macros"
     }
   ],
+  "postsubmit": [
+    {
+      "name": "keystore2_legacy_blobs_test"
+    },
+    {
+      "name": "keystore2_test"
+    },
+    {
+      "name": "legacykeystore_test"
+    },
+    {
+      "name": "libapkverify.integration_test"
+    },
+    {
+      "name": "libapkverify.test"
+    },
+    {
+      "name": "microdroid_manager_test"
+    },
+    {
+      "name": "minimal-lexical_test_tests_integration_tests"
+    },
+    {
+      "name": "minimal-lexical_test_tests_lemire_tests"
+    },
+    {
+      "name": "minimal-lexical_test_tests_mask_tests"
+    },
+    {
+      "name": "minimal-lexical_test_tests_number_tests"
+    },
+    {
+      "name": "minimal-lexical_test_tests_parse_tests"
+    },
+    {
+      "name": "minimal-lexical_test_tests_rounding_tests"
+    },
+    {
+      "name": "minimal-lexical_test_tests_slow_tests"
+    },
+    {
+      "name": "minimal-lexical_test_tests_vec_tests"
+    }
+  ],
   "presubmit": [
+    {
+      "name": "keystore2_legacy_blobs_test"
+    },
     {
       "name": "keystore2_test"
     },
@@ -53,6 +100,9 @@
     }
   ],
   "presubmit-rust": [
+    {
+      "name": "keystore2_legacy_blobs_test"
+    },
     {
       "name": "keystore2_test"
     },
