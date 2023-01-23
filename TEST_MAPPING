@@ -13,9 +13,6 @@
   ],
   "presubmit": [
     {
-      "name": "apkdmverity.test"
-    },
-    {
       "name": "keystore2_legacy_blobs_test"
     },
     {
@@ -23,18 +20,6 @@
     },
     {
       "name": "legacykeystore_test"
-    },
-    {
-      "name": "libapkverify.integration_test"
-    },
-    {
-      "name": "libapkverify.test"
-    },
-    {
-      "name": "libidsig.test"
-    },
-    {
-      "name": "microdroid_manager_test"
     },
     {
       "name": "minimal-lexical_test_tests_integration_tests"
@@ -61,14 +46,11 @@
       "name": "minimal-lexical_test_tests_vec_tests"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
     }
   ],
   "presubmit-rust": [
     {
-      "name": "apkdmverity.test"
-    },
-    {
       "name": "keystore2_legacy_blobs_test"
     },
     {
@@ -76,18 +58,6 @@
     },
     {
       "name": "legacykeystore_test"
-    },
-    {
-      "name": "libapkverify.integration_test"
-    },
-    {
-      "name": "libapkverify.test"
-    },
-    {
-      "name": "libidsig.test"
-    },
-    {
-      "name": "microdroid_manager_test"
     },
     {
       "name": "minimal-lexical_test_tests_integration_tests"
@@ -114,7 +84,7 @@
       "name": "minimal-lexical_test_tests_vec_tests"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
     }
   ]
 }
